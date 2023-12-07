@@ -32,4 +32,8 @@ for (let i = 0; i < arrayA.length; i++) {
 console.log("Array A:", arrayA);
 console.log("Array B:", arrayB);
 console.log("Array C:", arrayC);
+console.log('----------------------------------------');
+let arrayZero = [2, 6, 8, 0, 6, 4, 3, 2, 0, 7];
+const arrayWithoutZero = arrayZero.filter((value) => value !== 0);
+console.log("Array without number zero:", arrayWithoutZero);
 //# sourceMappingURL=equalArray.js.map
